@@ -43,17 +43,13 @@ Spring, Java, JavaScript를 좋아하는 비기너 개발자 입니다.
 #### Activites
 
 - **2013 부산국제 영화제** (2013.10.01 ~ 2013.10.15)
-
+- **Lumineers 회화스터디 운영** (2013 07.01 ~ 2015.02.28)
+- **JA KOREA 어린이 경제 교육봉사** (2013.02.04)
 - **라이온스 부산세계대회 서포터즈** (2012.06.17 ~ 2012.06.20)
-
 - **조선통신사 축제 행사보조** (2012.05.05)
+- **제4회 부산마라톤대회 하프완주** (2012.11.04)
+- **ITU International training work shop** (2012.10.08 ~ 2012.10.12)
+- **제39기 세상을 바꾸는 젊은이들 라온기자단** (2012.07.10 ~ 2012.07.31)
+- **Job vision training course by Global image making center** (2011.11.02)
 
-- **제4회 부산마라톤대회 하프완주** (20xx.xx.xx ~ 20xx.xx.xx)
-
-4. -기간 2012/11/4
-5.ITU International training work shop -기간 1012 10/8~10/12
-6.제39기 세상을 바꾸는 젊은이들 라온기자단 활동 -기간 2012 7/10~2012 7/31
-7.Job vision training course by Global image making center-기간 2011 11/02
-8.JA KOREA 어린이 경제 교육봉사 활동 -기간 2013 02/04
-9.Lumineers 회화스터디 운영 2013 07 ~ 2015 02
 ---
