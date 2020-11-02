@@ -23,7 +23,6 @@ Spring, Java, JavaScript를 좋아하는 비기너 개발자 입니다.
  
  **부산 IT교육센터** (20xx.xx ~ 20xx.xx)
   - xxx과정수료
-  -->
   
 #### Career
 **(주)비엑스아이**
