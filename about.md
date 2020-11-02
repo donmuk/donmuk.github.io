@@ -4,12 +4,30 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### 고동욱 (DongWook Ko)
 
-### More Information
+Spring, Java, JavaScript를 좋아하는 비기너 개발자 입니다.
 
-A place to include any other types of information that you'd like to include about yourself.
+---
+
+#### Contact
+**Email**
+  - kdo1367@gmail.com
+
+<!-- 
+#### Education
+
+**동의대학교** (20xx.xx ~ 20xx.xx)
+  - 경제학전공
+ -->
+ 
+ **부산 IT교육센터** (20xx.xx ~ 20xx.xx)
+  - xxx과정수료
+  -->
+  
+#### Career
+**(주)비엑스아이**
+- 웹 개발 (2019.10.01 ~ 현재)
 
 ### Contact me
-
 [kdo1367@gmail.com](mailto:kdo1367@gmail.com)
