@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: ManHyuk
+name: donmuk
 
 # Short bio or description (displayed in the header)
 description: Beginner Developer
@@ -29,7 +29,7 @@ navigation:
   # - name: Tags
   #   url: /tags
   - name: GitHub
-    url: https://github.com/ManHyuk
+    url: https://github.com/donmuk
 
 # Pagination
 paginate: 5
@@ -38,10 +38,10 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email: rnanhyuk@gmail.com
+  email: kdo1367@gmail.com
   facebook:
   flickr:
-  github: ManHyuk
+  github: donmuk
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -53,18 +53,18 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2018 ManHyuk
+footer-text: © 2020 donmuk
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: manhyuk
+disqus: donmuk
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-128942224-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://manhyuk.github.io
+url: https://donmuk.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
