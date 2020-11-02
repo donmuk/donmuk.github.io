@@ -5,49 +5,35 @@ permalink: /about/
 ---
 
 
-### 한만혁 (ManHyuk Han)
+### 고동욱 (DongWook Ko)
 
-NodeJS, Vue, React를 좋아하는 비기너 개발자 입니다.
+Spring, Java, JavaScript를 좋아하는 비기너 개발자 입니다.
 
 ---
 
 #### Contact
 **Email**
-  - rnanhyuk@gmail.com
+  - kdo1367@gmail.com
 
 <!-- 
 #### Education
 
-**광운대학교** (2015.03 ~ 2018.02)
-- 컴퓨터소프트웨어전공
+**동의대학교** (20xx.xx ~ 20xx.xx)
+- 경제학전공
  -->
 
 #### Career
-**NAVER - Global Music**
-- 서버 개발 (2020.02.01 ~ )
-
 **SNOW - ZEPETO (WitStudio)**
-- 웹 개발 (2018.12.16 ~ 2020.01.31)
-
-**HyperConnect - HyperX**
-- BackEnd 개발 인턴 (2018.06.25 ~ 2018.08.31)
-
-**스마일게이트 스토브 - 웹프론트개발팀**
-- Web FrontEnd 개발 인턴 (2018.03.12 ~ 2018.06.22)
+- 웹 개발 (2019.10.01 ~ 현재)
 
 #### Activites
 
-- **스마일게이트 서버개발캠프** (2018.01.02 ~ 2018.02.23)
+- **xxxx xxxx** (20xx.xx.xx ~ 20xx.xx.xx)
 
-- **AWS 대학생 유저그룹** (2017.07 ~ 2018.08)
+- **xxxx xxxx** (20xx.xx.xx ~ 20xx.xx.xx)
 
-- **멋쟁이 사자처럼 5기** (2017.03 ~ 2017.12)
+- **xxxx xxxx** (20xx.xx.xx ~ 20xx.xx.xx)
 
-- **피로그래밍 7기** (2017.07~2017.08)
-
-- **S.O.P.T.**
-  - **21기** 안드로이드 파트 (2017.09.01 ~ 2018.01.30)
-  - **20기** iOS 파트 (2017.03.01 ~ 2017.07.30)
-  - **18기** 서버 파트 (2016.03.01 ~ 2016.07.30)
+- **xxxx xxxx** (20xx.xx.xx ~ 20xx.xx.xx)
 
 ---
