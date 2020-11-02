@@ -36,7 +36,7 @@ footer-links:
   email: kdo1367@gmail.com
   facebook:
   flickr:
-  github: DongWook
+  github: donmuk
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:
@@ -48,7 +48,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2020 DongWook
+footer-text: © 2020 donmuk
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
