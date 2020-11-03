@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "토비의스프링 Vol.2 - 1장 IoC 컨테이너와 DI"
+title: "토비의 스프링 Vol.2 - 1장 IoC 컨테이너와 DI"
 comments: true
 description: ""
 keywords: ""
@@ -1318,3 +1318,6 @@ ApplicationContextInitializer 인터페이스는 타입 파라미터로 Configur
 * 프로토타입과 싱글톤이 아닌 스코프 빈은 DL 방식을 이용하거나, 스코프 프록시 빈을 DI 받는 방법을 사용해야 한다.
 * 스프링 3.1은 애노테이션과 자바 코드를 이용한 빈 메타정보 작성 기능을 발전시켜서 자바 코드만으로도 스프링 애플리케이션의 모든 빈 설정이 가능하게 해준다.
 * 스프링 3.1의 프로파일과 프로퍼티 소스로 이뤄진 런타임 환경 추상화 기능을 이용하면 환경에 따라 달라지는 빈 구성과 속성 지정 문제를 손쉽게 다룰 수 있다.
+
+
+출처 : https://github.com/Masssidev/toby-vol2

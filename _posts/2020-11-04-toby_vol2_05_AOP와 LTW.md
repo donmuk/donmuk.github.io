@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "토비의스프링 Vol.2 - 5장 AOP와 LTW"
+title: "토비의 스프링 Vol.2 - 5장 AOP와 LTW"
 comments: true
 description: ""
 keywords: ""
@@ -177,3 +177,5 @@ public class User {
 * 스프링은 또한 AspectJ를 스프링 애플리케이션 내에서 간접적으로 활용할 수 있는 몇 가지 방법을 제공한다. @Configurable은 스프링 빈이 아닌 오브젝트에 DI를 적용할 수 있게 해준다.
 * 스프링은 다양한 서버환경에서 사용 가능한 편리한 로드타임 위버를 제공해준다.
 
+
+출처 : https://github.com/Masssidev/toby-vol2
