@@ -23,7 +23,7 @@ navigation:
   - name: About
     url: /about
   - name: Posts
-    url: /posts
+    url: /_posts
   - name: Archive
     url: /archive
   # - name: Tags
