@@ -22,8 +22,8 @@ avatar: https://user-images.githubusercontent.com/55281837/97830749-615bfc80-1d1
 navigation:
   - name: About
     url: /about
-  - name: Posts
-    url: /_posts
+  #- name: Posts
+  #  url: /
   - name: Archive
     url: /archive
   # - name: Tags
