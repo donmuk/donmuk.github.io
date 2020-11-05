@@ -6,8 +6,8 @@ description: ""
 keywords: ""
 ---
 
-- 경력을 발전시키고 싶다면 - 커리어 스킬(1)
-- 개발자의 사이드 프로젝트 - 커리어 스킬(2)
+- 경력을 발전시키고 싶다면 - 커리어 스킬(1/2)
+- 개발자의 사이드 프로젝트 - 커리어 스킬(2/2)
 
 ![career_skill](/images/career_skill/career_skill.jpg)
 
