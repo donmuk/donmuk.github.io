@@ -84,4 +84,5 @@ keywords: ""
 
 
 출처 - 커리스 스킬 / 존 손메즈 지음 중 경력 발전 시키기에 대해 요약 정리한 내용입니다.
-출처 https://baek.dev/post/26/
+
+출처 - https://baek.dev/post/26/
