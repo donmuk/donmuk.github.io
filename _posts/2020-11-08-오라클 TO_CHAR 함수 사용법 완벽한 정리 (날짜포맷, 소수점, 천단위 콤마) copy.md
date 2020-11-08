@@ -6,12 +6,11 @@ description: ""
 keywords: ""
 ---
 
-## TO_CHAR
-
 오라클에서 쿼리문을 작성할 때 TO_CHAR() 함수는 날짜, 숫자 등의 값을 문자열로 변환하는 함수이다. 자주 사용하는 기본 함수이므로 아래의 다양한 변환 방법을 알고 있으면 많은 도움이 된다.
 
  
 - 날짜 포맷 변경 (YYYY-MM-DD)
+
 ```sql
 SELECT TO_CHAR(SYSDATE, 'YYYYMMDD')              --20200723
      , TO_CHAR(SYSDATE, 'YYYY/MM/DD')            --2020/07/23
@@ -24,6 +23,7 @@ YYYY: 년, MM: 월, DD: 일, HH24: 24시간, HH: 12시간, MI: 분, SS:초
 
 
 - 소수점 변경
+
 ```sql SELECT TO_CHAR(123.456, 'FM990.999') --123.456
      , TO_CHAR(1234.56, 'FM9990.99') --1234.56
      , TO_CHAR(0.12345, 'FM9990.99') --0.12
@@ -38,6 +38,7 @@ FM: 문자열의 공백제거
 
 
 - 숫자의 천 단위 콤마 찍기
+
 ```sql
 SELECT TO_CHAR(123467, 'FM999,999')        --123,467
      , TO_CHAR(123467890, 'FM999,999,999') --123,467,890
@@ -49,6 +50,7 @@ SELECT TO_CHAR(123467, 'FM999,999')        --123,467
 
  
 - 지정한 길이 만큼 "0"으로 채우기
+
 ```sql
 SELECT TO_CHAR(123)            --123
      , TO_CHAR(123, 'FM00000') --00123
@@ -57,6 +59,7 @@ SELECT TO_CHAR(123)            --123
 
 
 - 날짜의 "0" 없애기
+
 ```sql
 SELECT TO_CHAR(SYSDATE, 'MM/DD')   --07/03
      , TO_CHAR(SYSDATE, 'FMMM/DD') --7/3
@@ -64,6 +67,7 @@ SELECT TO_CHAR(SYSDATE, 'MM/DD')   --07/03
 ``` 
 
 - 임의의 구분자로 날짜 형식 만들기
+
 ```sql
 SELECT TO_CHAR(SYSDATE, '""YYYY"년 "MM"월 "DD"일"') --2020년 07월 23일
      , TO_CHAR(SYSDATE, '""HH24"시 "MI"분 "SS"초"') --11시 12분 20초
@@ -72,6 +76,7 @@ SELECT TO_CHAR(SYSDATE, '""YYYY"년 "MM"월 "DD"일"') --2020년 07월 23일
 
 
 - 시간의 오전, 오후 값 반환
+
 ```sql
 SELECT TO_CHAR(SYSDATE, 'AM')                    --오전
      , TO_CHAR(SYSDATE, 'AM HH:MI:SS')           --오전 11:44:31
@@ -83,6 +88,7 @@ SELECT TO_CHAR(SYSDATE, 'AM')                    --오전
 
  
 - 날짜의 요일 반환
+
 ```sql
 SELECT TO_CHAR(SYSDATE, 'D')   --5 : 1(일)~7(토)
      , TO_CHAR(SYSDATE, 'DY')  --목
@@ -94,6 +100,7 @@ SELECT TO_CHAR(SYSDATE, 'D')   --5 : 1(일)~7(토)
 
  
 - 1년기준 몇일, 몇주, 분기 반환
+
 ```sql
 SELECT TO_CHAR(SYSDATE, 'DDD') --365일 기준 205일
      , TO_CHAR(SYSDATE, 'WW')  --1년 기준 30주
@@ -102,6 +109,7 @@ SELECT TO_CHAR(SYSDATE, 'DDD') --365일 기준 205일
 ```
 
 - 간편한 날짜 변환
+
 ```sql
 SELECT TO_CHAR(SYSDATE, 'MON') --7월
      , TO_CHAR(SYSDATE, 'DL')  --2020년 7월 23일 목요일
