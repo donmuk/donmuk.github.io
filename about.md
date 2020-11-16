@@ -48,6 +48,32 @@ Spring, Java, JavaScript를 좋아하는 비기너 개발자 입니다.
 - 자동차운전면허증 (취득일자:2015.02.05)
 -->
 
+<!--
+#### Program
+*IDE
+Eclipse
+Visual Studio Code
+
+*DB
+SQL Developer
+dBeaver
+
+*REPORTING TOOL
+AI_REPORT
+
+*OFFICE
+Excel
+PowerPoint
+Note++
+
+*ETC
+Github
+VisualSVN Server Manager
+mobaXterm
+fileZila
+PicPic
+-->
+
 #### Activites
 - **제21회 부산마라톤대회 하프완주** (2019.11.10)
 - **부산하프마라톤대회 10km완주** (2019.05.12)
