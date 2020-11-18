@@ -1,6 +1,6 @@
 ---
 layout: db
-title: "Mybatis 에서 #{} 과 ${}의 차이2222222222222222"
+title: "22222222222222222"
 comments: true
 description: ""
 keywords: ""
