@@ -4,12 +4,12 @@ title: Js
 permalink: /js/
 ---
 
-{% if site.posts.size == 0 %}
+{% if site.jss.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
 
 <ul class="archive">
-  {% for post in site.posts %}
+  {% for post in site.jss %}
     {% unless post.next %}
       <h2>{{ post.date | date: '%Y' }}</h2>
     {% else %}
