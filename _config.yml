@@ -24,8 +24,8 @@ navigation:
     url: /about
   - name: Java
     url: /Java
-  - name: JavaScript
-    url: /JavaScript
+  - name: Js
+    url: /Js
   - name: DB
     url: /DB
   - name: Archive
