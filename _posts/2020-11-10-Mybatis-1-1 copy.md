@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 123
 title: "Mybatis 에서 #{} 과 ${}의 차이"
 comments: true
 description: ""
