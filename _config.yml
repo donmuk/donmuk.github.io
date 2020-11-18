@@ -26,8 +26,8 @@ navigation:
  #   url: /java
  # - name: Js
  #   url: /js
-  - name: DB
-    url: /db
+ # - name: DB
+ #   url: /db
   - name: Archive
     url: /archive
   # - name: Tags
