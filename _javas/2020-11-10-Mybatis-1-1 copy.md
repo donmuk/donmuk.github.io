@@ -1,6 +1,6 @@
 ---
-layout: tag
-title: "22222222222222222"
+layout: post
+title: "Mybatis 에서 #{} 과 ${}의 차이"
 comments: true
 description: ""
 keywords: ""
