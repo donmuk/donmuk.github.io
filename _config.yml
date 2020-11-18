@@ -23,11 +23,11 @@ navigation:
   - name: About
     url: /about
   - name: Java
-    url: /Java
+    url: /java
   - name: Js
-    url: /Js
+    url: /js
   - name: DB
-    url: /DB
+    url: /db
   - name: Archive
     url: /archive
   # - name: Tags
