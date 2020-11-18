@@ -1,0 +1,34 @@
+---
+layout: page
+title: DB
+permalink: /db/
+---
+
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% endif %}
+
+<ul class="archive">
+  {% for db in site.posts %}
+    {% unless db.next %}
+      <h2>{{ db.date | date: '%Y' }}</h2>
+    {% else %}
+      {% capture year %}{{ db.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ db.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h2>{{ db.date | date: '%Y' }}</h2>
+      {% endif %}
+    {% endunless %}
+
+    <li>
+      {% if db.link %}
+      <a href="{{ db.link }}">
+      {% else %}
+      <a href="{{ site.baseurl }}{{ db.url }}">
+      {% endif %}
+        {{ db.title }}
+      </a>
+      <time>{{ db.date | date: "%Y-%m-%d" }}</time>
+    </li>
+  {% endfor %}
+</ul>
