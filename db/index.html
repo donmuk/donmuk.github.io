@@ -9,9 +9,9 @@ permalink: /db/
 {% endif %}
 
 <ul class="db">
-  {% for db in site.posts %}
+  {% for db in site.db %}
     {% unless db.next %}
-      <h2>{{ post.date | date: '%Y' }}</h2>
+      <h2>{{ db.date | date: '%Y' }}</h2>
     {% else %}
       {% capture year %}{{ db.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ db.next.date | date: '%Y' }}{% endcapture %}
