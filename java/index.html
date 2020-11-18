@@ -1,15 +1,15 @@
 ---
 layout: page
-title: DB
-permalink: /db/
+title: Java
+permalink: /java/
 ---
 
-{% if site.postsdb.size == 0 %}
+{% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
 
 <ul class="archive">
-  {% for post in site.postsdb %}
+  {% for post in site.posts %}
     {% unless post.next %}
       <h2>{{ post.date | date: '%Y' }}</h2>
     {% else %}
