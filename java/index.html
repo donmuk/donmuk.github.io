@@ -4,31 +4,31 @@ title: Java
 permalink: /java/
 ---
 
-{% if site.posts.size == 0 %}
+{% if site.javas.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
 
-<ul class="archive">
-  {% for post in site.posts %}
-    {% unless post.next %}
-      <h2>{{ post.date | date: '%Y' }}</h2>
+<ul class="java">
+  {% for java in site.javas %}
+    {% unless java.next %}
+      <h2>{{ java.date | date: '%Y' }}</h2>
     {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% capture year %}{{ java.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ java.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
-        <h2>{{ post.date | date: '%Y' }}</h2>
+        <h2>{{ java.date | date: '%Y' }}</h2>
       {% endif %}
     {% endunless %}
 
     <li>
-      {% if post.link %}
-      <a href="{{ post.link }}">
+      {% if java.link %}
+      <a href="{{ java.link }}">
       {% else %}
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ java.url }}">
       {% endif %}
-        {{ post.title }}
+        {{ java.title }}
       </a>
-      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+      <time>{{ java.date | date: "%Y-%m-%d" }}</time>
     </li>
   {% endfor %}
 </ul>

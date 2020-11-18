@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: java
 title: "커리어 스킬(1/2)"
 comments: true
 description: ""
