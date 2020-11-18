@@ -1,5 +1,5 @@
 ---
-layout: tags
+layout: tag
 title: "22222222222222222"
 comments: true
 description: ""
