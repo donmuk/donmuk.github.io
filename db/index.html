@@ -9,26 +9,26 @@ permalink: /db/
 {% endif %}
 
 <ul class="archive">
-  {% for db in site.db %}
-    {% unless db.next %}
-      <h2>{{ db.date | date: '%Y' }}</h2>
+  {% for post in site.postsdb %}
+    {% unless post.next %}
+      <h2>{{ post.date | date: '%Y' }}</h2>
     {% else %}
-      {% capture year %}{{ db.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ db.next.date | date: '%Y' }}{% endcapture %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
-        <h2>{{ db.date | date: '%Y' }}</h2>
+        <h2>{{ post.date | date: '%Y' }}</h2>
       {% endif %}
     {% endunless %}
 
     <li>
-      {% if db.link %}
-      <a href="{{ db.link }}">
+      {% if post.link %}
+      <a href="{{ post.link }}">
       {% else %}
-      <a href="{{ site.baseurl }}{{ db.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}">
       {% endif %}
-        {{ db.title }}
+        {{ post.title }}
       </a>
-      <time>{{ db.date | date: "%Y-%m-%d" }}</time>
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
     </li>
   {% endfor %}
 </ul>
