@@ -6,9 +6,9 @@ layout: default
   <h2>No post found</h2>
 {% endif %}
 
-<div class="posts123">
+<div class="posts">
   {% for post in paginator.posts %}
-    <article class="post">
+    <article class="db">
       <h1>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h1>
