@@ -24,7 +24,9 @@ permalink: /db/
   <!-- <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
     </h2> -->   
+    {% for post in tag[1] %}
     <h2>{{ post.date | date: "%Y" }}</h2>
+    {% endfor %}
 
     <ul class="tag">
       {% for post in tag[1] %}
