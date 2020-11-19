@@ -10,11 +10,7 @@ permalink: /db/
 
 <div class="tags">
 
-  {% for post in tag[1] %}
-  {% if post.title != null %}
   <h2>{{ post.date | date: '%Y' }}</h2>
-  {% endif %}
-  {% endfor %}
 
     <ul class="tag">
       {% for post in tag[1] %}
