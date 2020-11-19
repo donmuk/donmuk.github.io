@@ -20,12 +20,12 @@ permalink: /db/
     {% endfor %}
   </ul> -->
 
-  {% for tag in site.tags %}
-    <h2 id="{{ tag[0] }}">
+  <!--{% for tag in site.tags %}
+     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
-    </h2>
+    </h2> -->
 
-    {% for tag in site.tags %}
+    {% for post in site.tags %}
     {% unless post.next %}
       <h2>{{ post.date | date: '%Y' }}</h2>
     {% else %}
