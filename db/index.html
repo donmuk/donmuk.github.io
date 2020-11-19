@@ -9,17 +9,10 @@ permalink: /db/
 {% endif %}
 
 <div class="tags">
-
-  {% for post in site.tags %}
-  {% unless post.next %}
+    {% for post in tag[1] %}
+    {{ post.title }}
     <h2>{{ post.date | date: '%Y' }}</h2>
-  {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-      <h2>{{ post.date | date: '%Y' }}</h2>
-    {% endif %}
-  {% endunless %}
+    {% endfor %}
 
     <ul class="tag">
       {% for post in tag[1] %}
