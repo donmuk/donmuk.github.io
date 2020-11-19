@@ -21,12 +21,17 @@ avatar: https://user-images.githubusercontent.com/55281837/97830749-615bfc80-1d1
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
   - name: About
-     url: /about
-  - name: Tags
-     url: /tags
+    url: /about
+  - name: Java
+    url: /java
+  - name: Js
+    url: /js
+  - name: DB
+    url: /db
   - name: Archive
     url: /archive
-
+  # - name: Tags
+  #   url: /tags
   - name: GitHub
     url: https://github.com/donmuk
 
