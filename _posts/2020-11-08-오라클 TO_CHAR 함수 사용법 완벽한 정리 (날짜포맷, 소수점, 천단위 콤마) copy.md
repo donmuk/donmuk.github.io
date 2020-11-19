@@ -1,5 +1,5 @@
 ---
-layout: db
+layout: post
 title: "오라클 TO_CHAR 함수 사용법 완벽한 정리 (날짜포맷, 소수점, 천단위 콤마)"
 comments: true
 description: ""
