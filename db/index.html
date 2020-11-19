@@ -16,6 +16,7 @@ permalink: /db/
         <span>{{ tag[0] }}</span>
         <span class="count">{{ tag[1] | size }}</span>
       </a>
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
     </li>
     {% endfor %}
   </ul>
@@ -23,6 +24,7 @@ permalink: /db/
   {% for tag in site.tags %}
     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
     </h2>
     <ul class="tag">
       {% for post in tag[1] %}
