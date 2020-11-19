@@ -28,10 +28,11 @@ navigation:
 #    url: /js
 #  - name: DB
 #    url: /db
-  - name: Archive
-    url: /archive
   - name: Tags
     url: /tags
+- name: Archive
+    url: /archive
+
   - name: GitHub
     url: https://github.com/donmuk
 
