@@ -22,17 +22,16 @@ avatar: https://user-images.githubusercontent.com/55281837/97830749-615bfc80-1d1
 navigation:
   - name: About
     url: /about
-#  - name: Java
-#    url: /java
-#  - name: Js
-#    url: /js
-#  - name: DB
-#    url: /db
-  - name: Tags
-    url: /tags
-- name: Archive
+  - name: Java
+    url: /java
+  - name: Js
+    url: /js
+  - name: DB
+    url: /db
+  - name: Archive
     url: /archive
-
+  # - name: Tags
+  #   url: /tags
   - name: GitHub
     url: https://github.com/donmuk
 
