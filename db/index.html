@@ -21,9 +21,9 @@ permalink: /db/
   </ul> -->
 
   {% for tag in site.tags %}
-    <h2 id="{{ tag[0] }}">
+  <!--  <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
-    </h2>
+    </h2> -->
     <ul class="tag">
       {% for post in tag[1] %}
         {% if post.title != null %}
