@@ -4,6 +4,7 @@ title: "토비의 스프링 Vol.2 - 1장 IoC 컨테이너와 DI"
 comments: true
 description: ""
 keywords: ""
+tags: [SPRING]
 ---
 
 # IoC 컨테이너와 DI
