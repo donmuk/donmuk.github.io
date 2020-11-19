@@ -4,7 +4,6 @@ title: "토비의 스프링 Vol.2 - 5장 AOP와 LTW"
 comments: true
 description: ""
 keywords: ""
-tags: [SPRING]
 ---
 
 # AOP와 LTW
