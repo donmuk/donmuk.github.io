@@ -23,8 +23,6 @@ permalink: /db/
   {% for tag in site.tags %}
     <h2 id="{{ tag[0] }}">
       {{ tag[0] }}
-      {{ post.title }}
-      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
     </h2>
     <ul class="tag">
       {% for post in tag[1] %}
