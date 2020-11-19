@@ -20,25 +20,26 @@ permalink: /db/
     {% endfor %}
   </ul>
 
-  {% for tag in site.tags %}
-    <h2 id="{{ tag[0] }}">
-      {{ tag[0] }}
-    </h2>
-    <ul class="tag">
-      {% for post in tag[1] %}
-        {% if post.title != null %}
-          <li>
-            {% if post.link %}
-              <a href="{{ post.link }}">
-            {% else %}
-              <a href="{{ site.baseurl }}{{ post.url }}">
-            {% endif %}
-                {{ post.title }}
-              </a>
-              <time>{{ post.date | date: "%Y-%m-%d" }}</time>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+  {% for post in site.posts %}
+    {% unless post.next %}
+      <h2>{{ post.date | date: '%Y' }}</h2>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h2>{{ post.date | date: '%Y' }}</h2>
+      {% endif %}
+    {% endunless %}
+
+    <li>
+      {% if post.link %}
+      <a href="{{ post.link }}">
+      {% else %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+      {% endif %}
+        {{ post.title }}
+      </a>
+      <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+    </li>
   {% endfor %}
 </div>
