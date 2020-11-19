@@ -20,20 +20,14 @@ avatar: https://user-images.githubusercontent.com/55281837/97830749-615bfc80-1d1
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: About
-    url: /about
-  - name: Java
-    url: /java
-  - name: Js
-    url: /js
-  - name: DB
-    url: /db
-  - name: Archive
-    url: /archive
-  # - name: Tags
-  #   url: /tags
-  - name: GitHub
-    url: https://github.com/donmuk
+    - name: About
+       url: /about
+    - name: Tags
+       url: /tags
+    - name: Archive
+       url: /archive
+    - name: GitHub
+       url: https://github.com/donmuk
 
 # Pagination
 paginate: 5
