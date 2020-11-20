@@ -4,6 +4,7 @@ title: "커리어 스킬(2/2)"
 comments: true
 description: ""
 keywords: ""
+tags : [커리어 스킬]
 ---
 
 - 경력을 발전시키고 싶다면 - 커리어 스킬(1/2)

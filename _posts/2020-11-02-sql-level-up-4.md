@@ -4,6 +4,7 @@ title: "SQL 레벨업 - 4장 집약과 자르기"
 comments: true
 description: ""
 keywords: ""
+tags : [SQL 레벨업]
 ---
 
 
