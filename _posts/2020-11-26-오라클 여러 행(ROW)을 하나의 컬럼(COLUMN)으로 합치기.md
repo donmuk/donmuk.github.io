@@ -80,4 +80,18 @@ SELECT COUNTRY
 ![568463546346](/images/oracle/568463546346.png)
 
 
+## 정리
+    - XMLAGG 
+	  ==> xmlagg는 xml 문서를 만들어주는 함수
+
+	- XMLELEMENT
+	  ==> 주어진 태그로 값을 감싸 하나의 xml 엘리먼트를 만듬
+	  
+    - .EXTRACT
+	  ==> TAG삭제 
+	  
+    - .GETSTRINGVAL()
+	  ==> String으로 형변환
+
+
 출처 : https://gent.tistory.com/15
