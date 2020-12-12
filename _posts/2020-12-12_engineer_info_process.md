@@ -1,0 +1,35 @@
+---
+layout: post
+title: "정보처리기사 실기 요약_1"
+comments: true
+description: ""
+keywords: ""
+tags : [ENG_INFO_PROC]
+---
+
+# 스프링 웹 기술과 스프링 MVC
+### 스프링의 웹 프레젠테이션 계층 기술
+#### 스프링에서 사용되는 웹 프레임워크의 종류
+##### 스프링 웹 프레임워크
+* 스프링 서블릿/스프링 MVC
+* 스프링 포틀릿
+##### 스프링 포트폴리오 웹 프레임워크
+* Spring Web Flow
+* Spring JavaScript
+* Spring Faces
+* Spring Web Service
+* Spring BlazeDS Integration
+##### 스프링을 기반으로 두지 않는 웹 프레임워크
+* JSP/Servlet
+* Struts1
+* Struts2
+* Tapestry 3, 4
+* JSF/Seam
+#### 스프링 MVC와 DispatcherServlet 전략
+스프링은 특정 기술이나 방식에 억매이지 않으면서 웹 프레젠테이션 계층의 각종 기술을 조합, 확장해서 사용할 수 있는 매우 유연한 웹 애플리케이션 개발의 기본 틀을 제공해준다. 
+이 틀이 제공하는 다양한 전략의 확장 포인트를 이용해서 스프링 스스로 기본적인 MVC 프레임워크를 만들어뒀다.
+
+스프링 웹 기술의 핵심이자 기반이 되는 것은 DispatcherServlet이다. 이 서블릿은 스프링의 웹 기술을 구성하는 다양한 전략을 DI로 구성해서 확장하도록 만들어진 스프링 서블릿/MVC의 엔진과 같은 역할을 한다.
+##### DispatcherServlet과 MVC 아키텍처
+스프링의 웹 기술은 MVC 아키텍처를 근간으로 하고 있다. MVC는 프레젠테이션 계층의 구성요소 정보를 담은 모델(M), 화면 출력 로직을 담은 뷰(V), 그리고 제어 로직을 담은 컨트롤러(C)로 분리하고 이 세 가지 요소가 
+서로 협력해서 하나의 웹 요청을 처리하고 응답을 만들어내는 구조다.
