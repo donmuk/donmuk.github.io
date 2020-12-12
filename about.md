@@ -25,8 +25,9 @@ Spring, Java, JavaScript를 좋아하는 비기너 개발자 입니다.
 #### Career
 **(주)비엑스아이**
 - 모바일 인사시스템 개발 (2019.10.01 ~ 2019.12.31)
-- 전자구매시스템 개발 (2020.01.01 ~ 2020.08.31)
-- 결재시스템 개발 (2020.06.01 ~ 2020.10.31)
+- 전자구매시스템 개발  (2020.01.01 ~ 2020.05)
+- 통합결재시스템 연동 (2020.06.01 ~ 2020.10.)
+- 매뉴얼관리시스템 개발 (2020.12.01 ~ xxxx.xx.)
 - 웹 개발 (2019.10.01 ~ 현재)
 
 **(주)마르센**
@@ -70,8 +71,9 @@ Note++
 *ETC
 Github
 VisualSVN Server Manager
-mobaXterm
-fileZila
+fileZila Server
+fileZila Client
+mobaXterm Client
 PicPic
 -->
 
