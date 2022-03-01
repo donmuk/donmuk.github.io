@@ -9,7 +9,7 @@ tags: [SPRING]
 
 
 
-개념
+- 개념
 
 다른 구문에서 재사용하기 위한 SQL 조각
 
@@ -19,7 +19,7 @@ tags: [SPRING]
 
 
 
-조건
+- 조건
 
 1.id 속성 값이 필수입니다.
 
@@ -27,37 +27,38 @@ tags: [SPRING]
 
 
  
-문법
+- 문법
 
 ```
 <sql id="userColumns"> ${alias}.id,${alias}.username,${alias}.password </sql>
  
-
 <include> 
 
 <property>
 ```
  
 
-개념
+- 개념
 
-<sql> 문을 DML(Data Manipulation Language) 태그에 삽입하는 기술
-
- 
+sql 문을 DML(Data Manipulation Language) 태그에 삽입하는 기술
 
  
 
-문법
+ 
+
+- 문법
+
 ```
 <select,insert,update,delete>
 
-<include refid="<sql> id"><property name="<sql> property" value=""/></include>
+  <include refid="<sql> id"><property name="<sql> property" value=""/></include>
 
 </select,insert,update,delete>
 ```
 
-
+```
 <sql> + <include><property> 설명
+```
 
 ```
 sql
@@ -84,13 +85,15 @@ SELECT id,name
 </select>
 ```
 
-실행될 쿼리
+- 실행될 쿼리
 
+```
 SELECT id,name FROM tablename WHERE id = 119
- 
+``` 
 
-설명
+- 설명
 
+```
 0.<sql> 문에는 parameter를 넘길 수 없으므로 property를 사용한다. ex) ${alias},${tablename}..
 
 1.<sql> id 속성 == <include> refid 속성
@@ -98,19 +101,20 @@ SELECT id,name FROM tablename WHERE id = 119
 2.<sql> ${alias(별칭)} == <property> name 속성  
 
 3.<property> value 속성 : ${alias}에 들어갈 값
-
+```
  
 
 이 네가지만 기억하시면 됩니다.
 
+```
 <sql> + <include> 실전 예제
-
+```
  
-
+```
 ☞ 참고 : <sql> property는 꼭 $로 작성하셔야 합니다.
 
 ☞ 참고 02 : <sql> 문에선 property 를 <if> , <bind> 태그에 변수로 인식하지 못합니다.
-
+```
  
 
 1.Table 문법 재사용
@@ -185,10 +189,11 @@ sql
 </insert>
 ```
 
+```
 외부 SQL-Mapper.xml + <include> 사용하기 
 
 board-Mapper.xml 에서 common-Mapper.xml <sql> 사용(접근) 하기
-
+```
  
 
 common-Mapper.xml
@@ -217,10 +222,11 @@ sql
 </select>
 ```
 
-설명
+- 설명
 
+```
 사용 할 외부 Mapper.xml에 namespace.<sql> id로 가져오면 됩니다.
-
+```
 
 출처: https://java119.tistory.com/90?category=824525
 

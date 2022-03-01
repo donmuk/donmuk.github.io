@@ -56,7 +56,7 @@ SELECT * FROM board
 1-1."subject" 칼럼이 먼저 올 경우
 
 SELECT * FROM board AND subject = #{subject}
-문법 에러가 나게 된다. 이때 <where> 문을 써주면 된다.
+문법 에러가 나게 된다. 이때 where 문을 써주면 된다.
 
 실전 예시 1.
 
@@ -97,8 +97,8 @@ SELECT * FROM board WHERE id = #{id} AND subject = #{subject}
 ```
 
  
+그냥 (AND 또는 OR ) 뭐가 먼저 들어올지 모르는 매개변수 값에 where 문을 쓰면 됩니다. 
 
-그냥 (AND || OR ) 뭐가 먼저 들어올지 모르는 매개변수 값에 <where> 문을 쓰면 됩니다. 
 
 출처: https://java119.tistory.com/90?category=824525
 
