@@ -7,7 +7,7 @@ permalink: /about/
 
 ### 고동욱 (DongWook Ko)
 
-Spring, Java, JavaScript를 좋아하는 비기너 개발자 입니다.
+Spring, Java, JavaScript를 좋아하는 주니어 개발자 입니다.
 
 ---
 
