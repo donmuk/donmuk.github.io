@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[MyBatis] 개발 생산성 향상,중복 쿼리 줄이기 <sql>,<include> 개념 및 문법 총 정리"
+title: "[MyBatis] 개발 생산성 향상,중복 쿼리 줄이기 sql, include 개념 및 문법 총 정리"
 comments: true
 description: ""
 keywords: ""
@@ -8,8 +8,6 @@ tags: [SPRING]
 ---
 
 
-<sql>
- 
 
 개념
 

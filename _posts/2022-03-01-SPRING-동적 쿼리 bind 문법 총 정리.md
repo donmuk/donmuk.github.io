@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[MyBatis] 동적 쿼리 <bind> 문법 총 정리"
+title: "[MyBatis] 동적 쿼리 bind 문법 총 정리"
 comments: true
 description: ""
 keywords: ""
@@ -8,8 +8,6 @@ tags: [SPRING]
 ---
 
 
-<bind>
- 
 
 개념
 

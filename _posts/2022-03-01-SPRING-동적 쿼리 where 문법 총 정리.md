@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[MyBatis] 동적 쿼리 <where> 문법 총 정리"
+title: "[MyBatis] 동적 쿼리 where 문법 총 정리"
 comments: true
 description: ""
 keywords: ""
@@ -8,12 +8,10 @@ tags: [SPRING]
 ---
 
 
-<where>
- 
 
 개념
 
-추가 쿼리 문의 내용을 <where> 문 안에 작성하면 첫 조건이 AND로 시작할지라도 WHERE로 치환해준다.
+추가 쿼리 문의 내용을 where 문 안에 작성하면 첫 조건이 AND로 시작할지라도 WHERE로 치환해준다.
 
 
 조건
