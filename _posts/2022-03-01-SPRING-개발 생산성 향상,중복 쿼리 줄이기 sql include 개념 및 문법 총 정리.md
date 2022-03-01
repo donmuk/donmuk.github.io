@@ -31,13 +31,14 @@ tags: [SPRING]
  
 문법
 
+```
 <sql id="userColumns"> ${alias}.id,${alias}.username,${alias}.password </sql>
  
 
 <include> 
 
 <property>
-
+```
  
 
 개념
@@ -49,17 +50,19 @@ tags: [SPRING]
  
 
 문법
-
+```
 <select,insert,update,delete>
 
 <include refid="<sql> id"><property name="<sql> property" value=""/></include>
 
 </select,insert,update,delete>
- 
+```
+
 
 <sql> + <include><property> 설명
 
-```sql
+```
+sql
 //no property 
 <sql id="example01">
   FROM
@@ -76,10 +79,10 @@ tags: [SPRING]
 </sql>
 <select id="selectUser" resultType="User">
 SELECT id,name
-<include refid="example03">
-  <property name="alias" value="tablename"/>
-  <property name="alias02" value="119"/>
-</include>
+  <include refid="example03">
+    <property name="alias" value="tablename"/>
+    <property name="alias02" value="119"/>
+  </include>
 </select>
 ```
 
@@ -92,11 +95,11 @@ SELECT id,name FROM tablename WHERE id = 119
 
 0.<sql> 문에는 parameter를 넘길 수 없으므로 property를 사용한다. ex) ${alias},${tablename}..
 
-1. <sql> id 속성 == <include> refid 속성
+1.<sql> id 속성 == <include> refid 속성
 
-2. <sql> ${alias(별칭)} == <property> name 속성  
+2.<sql> ${alias(별칭)} == <property> name 속성  
 
-3. <property> value 속성 : ${alias}에 들어갈 값
+3.<property> value 속성 : ${alias}에 들어갈 값
 
  
 
@@ -113,7 +116,9 @@ SELECT id,name FROM tablename WHERE id = 119
  
 
 1.Table 문법 재사용
-```sql
+
+```
+sql
 <sql id="returnTable">
   from ${tableproperty}
 </sql>
@@ -124,7 +129,8 @@ SELECT id,name FROM tablename WHERE id = 119
 
 2.JOIN문 활용 (MyBatis 공식 사이트 예제)
 
-```sql
+```
+sql
 <sql id="userColumns"> ${alias}.id,${alias}.username,${alias}.password </sql>
 <select id="selectUsers" resultType="map">
   select
@@ -137,7 +143,8 @@ SELECT id,name FROM tablename WHERE id = 119
 
 3.SELECT 칼럼 문법 재사용
 
-```sql
+```
+sql
 <sql id="common_select_table">id, name, age</sql>
 <select id="getMemberInfo">
     SELECT
@@ -148,7 +155,8 @@ SELECT id,name FROM tablename WHERE id = 119
 
 4.INSERT 문 활용
 
-```sql
+```
+sql
 <sql id="board_columns">
     ${alias}id,
     ${alias}subject,
@@ -161,7 +169,8 @@ SELECT id,name FROM tablename WHERE id = 119
     ${alias}writer
 </sql>
 ```
-```sql
+```
+sql
 <insert id="insertBoard">
     INSERT INTO BOARD (
            <include refid="board_columns"><property name="alias" value=""/></include>
@@ -186,7 +195,8 @@ board-Mapper.xml 에서 common-Mapper.xml <sql> 사용(접근) 하기
 
 common-Mapper.xml
 
-```sql
+```
+sql
 <mapper namespace="mapper.common-Mapper">
 
 <sql id="board_col">
@@ -200,7 +210,8 @@ ${alias}context
 
 board-Mapper.xml
 
-```sql
+```
+sql
 <select id="selectUser">
     SELECT <include refid="mapper.common-Mapper.board_col">
     <property name="alias" value="b."/></include>
@@ -211,6 +222,7 @@ board-Mapper.xml
 설명
 
 사용 할 외부 Mapper.xml에 namespace.<sql> id로 가져오면 됩니다.
+
 
 출처: https://java119.tistory.com/90?category=824525
 

@@ -26,12 +26,11 @@ MyBatis version 3.2.3 이상
 문법
 
 동적 쿼리문 안에 작성
-
+```
 <select | insert | update | delete>
-
-<bind name="지정할 변수이름" value="파라미터 값+부가 옵션"/>
-
+  <bind name="지정할 변수이름" value="파라미터 값+부가 옵션"/>
 </select | insert | update | delete>
+```
 
 name 속성 : 자기가 지정할 변수 이름
 
@@ -47,7 +46,8 @@ Parameter 01 : id
 
 Parameter 02 : subject
 
-```sql
+```
+sql
 <select id="getTest" resultType="board">
     SELECT * 
       FROM board
@@ -74,11 +74,13 @@ SELECT * FROM board WHERE id like '%2%' AND subject like '%test%'
 
 실전 예시 2. Map 사용 문법
 
+```
 <bind name="a" value="hMap.get('a'.toString())"/>
 
 <bind name="b" value="hMap.get('b'.toString())"/>
 
 <bind name="c" value="hMap.get('c'.toString())"/>
+```
 
 실전 예시 3. 메서드(Method) 사용 문법
 
@@ -86,7 +88,8 @@ SELECT * FROM board WHERE id like '%2%' AND subject like '%test%'
 
 - bind 사용 전
 
-```sql
+```
+sql
 <select id="selectPerson" parameterType="String" resultType="hashmap">
   SELECT * 
     FROM PERSON 
@@ -96,7 +99,8 @@ SELECT * FROM board WHERE id like '%2%' AND subject like '%test%'
 
 - bind 사용 후
 
-```sql
+```
+sql
 <select id="selectPerson" parameterType="String" resultType="hashmap">
   <bind name="nameStartsWith" value="_parameter.getName().upperCase() + '%'"/>
       SELECT * 

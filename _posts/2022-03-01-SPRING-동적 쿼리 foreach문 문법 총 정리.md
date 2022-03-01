@@ -55,6 +55,7 @@ index : 반복되는 구문 번호이다. 0부터 순차적으로 증가
 
 사용 예시
 
+```
 <select id="selectPostIn" resultType="domain.blog.Post">
     SELECT *
       FROM POST P
@@ -63,6 +64,7 @@ index : 반복되는 구문 번호이다. 0부터 순차적으로 증가
          open = "(" separator="," close=")"> #{item}
      </foreach>
 </select>
+```
 
 -참고 자료 MyBatis 공식 사이트
 
@@ -135,6 +137,7 @@ ORDER BY m.authority;
 
  
 공통 리스트 데이터 
+
 ```
 List<Members> chkList = userService.getUserList(); //SELECT * FROM members 결과값
 ``` 

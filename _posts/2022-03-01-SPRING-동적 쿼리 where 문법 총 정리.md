@@ -24,7 +24,8 @@ MyBatis version 3.2.3 이상
 
 문법
 
-```sql
+```
+sql
 <select id="id">
 
 SELECT * FROM table
@@ -38,7 +39,8 @@ SELECT * FROM table
 
 잘못된 문법 예시 1.
 
-```sql
+```
+sql
 <select id="getTest" resultType="board">
 
 SELECT * FROM board
@@ -59,7 +61,9 @@ SELECT * FROM board AND subject = #{subject}
 문법 에러가 나게 된다. 이때 <where> 문을 써주면 된다.
 
 실전 예시 1.
-```sql
+
+```
+sql
 <select id="getTest" resultType="board">
 
 SELECT * FROM board
@@ -79,7 +83,8 @@ SELECT * FROM board
 실제 쿼리는 이런 식으로 작성된다.
 
  
-```sql
+```
+sql
 1-1."id" 칼럼 값만 있을 경우
 
 SELECT * FROM board WHERE id = #{id}
