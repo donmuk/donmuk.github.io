@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[MSSQL] WITH (NOLOCK)"
+title: "[SPRING] LOG LEVEL"
 comments: true
 description: ""
 keywords: ""
-tags: [DB]
+tags: [SPRING]
 ---
 
 회사에서 업무를 하게 되면
